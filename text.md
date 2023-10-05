@@ -205,7 +205,7 @@ while True:
     #文字型に変換して変数dataに格納
     #humi及びpressを小数点以下第二位で四捨五入
     data = 'Temp:' + str(temp) + '℃,' + 'Humi:' + str(round(humi, 2)) + '%,' + 'Press:' + str(round(press, 2)) + 'hPa'
-    print(data)  #シリアル通信にてデータ送信
+    print(data)  #シリアル通信にてデータをシェルに表示
     sleep(1)     #1sec待機
 ```
 
