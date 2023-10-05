@@ -162,7 +162,6 @@ while True:
     oled.text("Hello Python",0,10) #x=0, y=20座標に文字を出力
     #time[0]:year,[1]:month,[2]:day,[3]:hour,[4]:minute,[5]:second
     oled.text(str(time[0])+"/"+str(time[1])+"/"+str(time[2]),0,20)
-    oled.text(str(time[3])+":"+str(time[4])+":"+str(time[5]),5,30)
     oled.show() #oledにデータを表示
 ```
 
