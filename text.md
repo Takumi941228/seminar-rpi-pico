@@ -119,7 +119,7 @@ from machine import Pin
 #timeライブラリをインポート
 from time import sleep
 
-#picoのled(GPIO25を出力ピンに定義)
+#picoの内蔵led(GPIO25を出力ピンに定義)
 led = Pin(25, Pin.OUT)
 
 #無限ループ
